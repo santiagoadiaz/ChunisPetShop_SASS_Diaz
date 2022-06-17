@@ -57,9 +57,10 @@ header {
     box-sizing: border-box;
 
     .chunis-header {
-        font-family: 'Montagu Slab', serif;
-        letter-spacing: 5px;
+        font-family: 'Jua', sans-serif;
+        letter-spacing: 0.2px;
         font-size: 2rem;
+        font-weight: 700;
         color: black;
     }
 
@@ -82,10 +83,11 @@ header {
     padding: 15px;
 
     .pages {
-        font-family: 'Judson', serif;
+        font-family: 'Englebert', sans-serif;
         color: black;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         font-size: 1rem;
+        font-weight: 700;
         margin-left: 30px;
         transition: all 500ms ease;
 
@@ -177,7 +179,10 @@ header {
 
 .productostext {
     margin: 75px 40px 40px 40px;
-    font-family: 'Montagu Slab', serif;
+    font-family: 'Englebert', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-weight: 700;
     text-align: center;
     color: black;
 }
@@ -186,9 +191,9 @@ header {
     justify-content: center;
     width: 90%;
     margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr 1fr;
+    // grid-template-rows: 1fr;
     gap: 150px;
     grid-template-columns: repeat(auto-fill, 400px);
 }
@@ -270,8 +275,6 @@ header {
 
 footer {
     .container-footer {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
         height: 18em;
         gap: 20px;
 
