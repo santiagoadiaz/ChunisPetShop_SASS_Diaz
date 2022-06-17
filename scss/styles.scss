@@ -1,3 +1,7 @@
+@import '../scss/base/listas';
+@import '../scss/base/extends';
+@import '../scss/base/mixing';
+
 /* general */
 body {
 
@@ -217,7 +221,7 @@ header {
 
     .container-car {
         display: flex;
-        margin: 43px;
+        // margin: 43px;
         text-align: center;
 
         .icon-c {
@@ -234,7 +238,7 @@ header {
 
     .container-card {
         display: flex;
-        margin: 43px;
+        // margin: 43px;
         text-align: center;
 
         .icon-c {
@@ -279,9 +283,7 @@ footer {
         gap: 20px;
 
         .container-footer-1 {
-            align-items: center;
-            display: flex;
-            justify-content: center;
+            @extend %footerpropiedades;
         }
 
         .container-footer-2 {
@@ -291,9 +293,7 @@ footer {
         }
 
         .container-footer-3 {
-            align-items: center;
-            display: flex;
-            justify-content: center;
+            @extend %footerpropiedades;
         }
     }
 
