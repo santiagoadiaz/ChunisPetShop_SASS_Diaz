@@ -55,33 +55,6 @@ body {
     }
 }
 
-/* Container pages mobile */
-.margin-top-bar {
-    margin-top: 20px;
-}
-
-/* Complementary pages*/
-.container-pages {
-    display: flex;
-    background-color: rgb(241, 241, 241);
-    justify-content: center;
-    padding: 15px;
-
-    .pages {
-        font-family: 'Englebert', sans-serif;
-        color: black;
-        letter-spacing: 1px;
-        font-size: 1rem;
-        font-weight: 700;
-        margin-left: 30px;
-        transition: all 500ms ease;
-
-        &:hover {
-            color: white;
-        }
-    }
-}
-
 /* Carousel */
 
 .height-carousel {
@@ -251,55 +224,6 @@ body {
         }
     }
 }
-
-/* Footer */
-.title-footer {
-    font-family: 'Montagu Slab', serif;
-    font-size: 1.2em;
-}
-
-footer {
-    .container-footer {
-        height: 18em;
-        gap: 20px;
-
-        .container-footer-1 {
-            @extend %footerpropiedades;
-        }
-
-        .container-footer-2 {
-            margin-top: 80px;
-            display: flex;
-            justify-content: center;
-        }
-
-        .container-footer-3 {
-            @extend %footerpropiedades;
-        }
-    }
-
-    ul {
-        font-family: 'Judson', serif;
-        letter-spacing: 2px;
-        font-size: 0.8rem;
-        list-style-type: none;
-    }
-
-    .letras-footer {
-        &:hover {
-            color: white;
-        }
-    }
-
-    background-color: rgb(241, 241, 241);
-}
-
-
-
-
-
-
-
 
 .container-grid-dog {
     margin: 0 150px;

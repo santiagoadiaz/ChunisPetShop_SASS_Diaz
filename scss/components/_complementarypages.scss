@@ -1,0 +1,26 @@
+/* Container pages mobile */
+.margin-top-bar {
+    margin-top: 20px;
+}
+
+/* Complementary pages*/
+.container-pages {
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    justify-content: center;
+    padding: 15px;
+
+    .pages {
+        font-family: 'Englebert', sans-serif;
+        color: black;
+        letter-spacing: 1px;
+        font-size: 1rem;
+        font-weight: 700;
+        margin-left: 30px;
+        transition: all 500ms ease;
+
+        &:hover {
+            color: white;
+        }
+    }
+}

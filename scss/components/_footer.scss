@@ -1,0 +1,41 @@
+/* Footer */
+.title-footer {
+    font-family: 'Montagu Slab', serif;
+    font-size: 1.2em;
+}
+
+footer {
+    .container-footer {
+        height: 18em;
+        gap: 20px;
+
+        .container-footer-1 {
+            @extend %footerpropiedades;
+        }
+
+        .container-footer-2 {
+            margin-top: 80px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container-footer-3 {
+            @extend %footerpropiedades;
+        }
+    }
+
+    ul {
+        font-family: 'Judson', serif;
+        letter-spacing: 2px;
+        font-size: 0.8rem;
+        list-style-type: none;
+    }
+
+    .letras-footer {
+        &:hover {
+            color: white;
+        }
+    }
+
+    background-color: rgb(241, 241, 241);
+}
