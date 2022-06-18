@@ -3,6 +3,24 @@ footer .container-footer .container-footer-1, footer .container-footer .containe
   display: flex;
   justify-content: center; }
 
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  box-sizing: border-box; }
+  header .chunis-header {
+    font-family: 'Jua', sans-serif;
+    letter-spacing: 0.2px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: black; }
+  header .margin-header {
+    margin-left: 5rem;
+    margin-right: 5rem; }
+
 /* general */
 body * {
   margin: 0;
@@ -40,24 +58,6 @@ body .icons {
   width: 80px;
   margin-left: 1680px;
   margin-bottom: 30px; }
-
-/* Header */
-header {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: 80px;
-  background-color: white;
-  box-sizing: border-box; }
-  header .chunis-header {
-    font-family: 'Jua', sans-serif;
-    letter-spacing: 0.2px;
-    font-size: 2rem;
-    font-weight: 700;
-    color: black; }
-  header .margin-header {
-    margin-left: 5rem;
-    margin-right: 5rem; }
 
 /* Container pages mobile */
 .margin-top-bar {
