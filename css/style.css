@@ -3,6 +3,49 @@ footer .container-footer .container-footer-1, footer .container-footer .containe
   display: flex;
   justify-content: center; }
 
+/* Footer */
+.title-footer {
+  font-family: 'Montagu Slab', serif;
+  font-size: 1.2em; }
+
+footer {
+  background-color: #f1f1f1; }
+  footer .container-footer {
+    height: 18em;
+    gap: 20px; }
+    footer .container-footer .container-footer-2 {
+      margin-top: 80px;
+      display: flex;
+      justify-content: center; }
+  footer ul {
+    font-family: 'Judson', serif;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    list-style-type: none; }
+  footer .letras-footer:hover {
+    color: white; }
+
+/* Container pages mobile */
+.margin-top-bar {
+  margin-top: 20px; }
+
+/* Complementary pages*/
+.container-pages {
+  display: flex;
+  background-color: #f1f1f1;
+  justify-content: center;
+  padding: 15px; }
+  .container-pages .pages {
+    font-family: 'Englebert', sans-serif;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 30px;
+    transition: all 500ms ease; }
+    .container-pages .pages:hover {
+      color: white; }
+
 /* Header */
 header {
   display: flex;
@@ -58,27 +101,6 @@ body .icons {
   width: 80px;
   margin-left: 1680px;
   margin-bottom: 30px; }
-
-/* Container pages mobile */
-.margin-top-bar {
-  margin-top: 20px; }
-
-/* Complementary pages*/
-.container-pages {
-  display: flex;
-  background-color: #f1f1f1;
-  justify-content: center;
-  padding: 15px; }
-  .container-pages .pages {
-    font-family: 'Englebert', sans-serif;
-    color: black;
-    letter-spacing: 1px;
-    font-size: 1rem;
-    font-weight: 700;
-    margin-left: 30px;
-    transition: all 500ms ease; }
-    .container-pages .pages:hover {
-      color: white; }
 
 /* Carousel */
 .height-carousel {
@@ -162,10 +184,11 @@ body .icons {
 /* Publicity */
 .container-publicity {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   transition: all 500ms ease-out; }
   .container-publicity .container-car {
     display: flex;
+    margin: 43px;
     text-align: center; }
     .container-publicity .container-car .icon-c {
       margin-right: 12px; }
@@ -174,6 +197,7 @@ body .icons {
       display: flex; }
   .container-publicity .container-card {
     display: flex;
+    margin: 43px;
     text-align: center; }
     .container-publicity .container-card .icon-c {
       margin-right: 12px; }
@@ -189,28 +213,6 @@ body .icons {
     .container-publicity .container-card-2 .paragraph .text-publicity {
       font-size: 13px;
       display: flex; }
-
-/* Footer */
-.title-footer {
-  font-family: 'Montagu Slab', serif;
-  font-size: 1.2em; }
-
-footer {
-  background-color: #f1f1f1; }
-  footer .container-footer {
-    height: 18em;
-    gap: 20px; }
-    footer .container-footer .container-footer-2 {
-      margin-top: 80px;
-      display: flex;
-      justify-content: center; }
-  footer ul {
-    font-family: 'Judson', serif;
-    letter-spacing: 2px;
-    font-size: 0.8rem;
-    list-style-type: none; }
-  footer .letras-footer:hover {
-    color: white; }
 
 .container-grid-dog {
   margin: 0 150px;

@@ -170,12 +170,12 @@ body {
 /* Publicity */
 .container-publicity {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     transition: all 500ms ease-out;
 
     .container-car {
         display: flex;
-        // margin: 43px;
+        margin: 43px;
         text-align: center;
 
         .icon-c {
@@ -192,7 +192,7 @@ body {
 
     .container-card {
         display: flex;
-        // margin: 43px;
+        margin: 43px;
         text-align: center;
 
         .icon-c {
