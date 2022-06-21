@@ -1,27 +1,29 @@
 /* Footer */
 .title-footer {
   font-family: 'Montagu Slab', serif;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  margin-bottom: 50px; }
 
 footer {
   background-color: #f1f1f1; }
   footer .container-footer {
-    height: 18em;
+    height: 30em;
     gap: 20px; }
     footer .container-footer .container-footer-1 {
-      align-items: center;
+      margin-top: 50px;
       display: flex;
       justify-content: center; }
     footer .container-footer .container-footer-2 {
-      margin-top: 80px;
+      margin-top: 50px;
       display: flex;
       justify-content: center; }
     footer .container-footer .container-footer-3 {
-      align-items: center;
+      margin-top: 50px;
       display: flex;
       justify-content: center; }
   footer ul {
     font-family: 'Judson', serif;
+    line-height: 35px;
     letter-spacing: 2px;
     font-size: 0.8rem;
     list-style-type: none; }
@@ -161,7 +163,7 @@ body .icons {
 
 /* Featured products */
 .productostext {
-  margin: 75px 40px 40px 40px;
+  margin: 100px;
   font-family: 'Englebert', sans-serif;
   letter-spacing: 1px;
   font-size: 1rem;
@@ -183,6 +185,7 @@ body .icons {
 
 /* Publicity */
 .container-publicity {
+  margin-bottom: 50px;
   display: flex;
   justify-content: space-around;
   transition: all 500ms ease-out; }

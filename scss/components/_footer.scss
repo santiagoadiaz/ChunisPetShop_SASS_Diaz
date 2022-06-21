@@ -2,27 +2,28 @@
 .title-footer {
     font-family: 'Montagu Slab', serif;
     font-size: 1.2em;
+    margin-bottom: 50px;
 }
 
 footer {
     .container-footer {
-        height: 18em;
+        height: 30em;
         gap: 20px;
 
         .container-footer-1 {
-            align-items: center;
+            margin-top: 50px;
             display: flex;
             justify-content: center;
         }
 
         .container-footer-2 {
-            margin-top: 80px;
+            margin-top: 50px;
             display: flex;
             justify-content: center;
         }
 
         .container-footer-3 {
-            align-items: center;
+            margin-top: 50px;
             display: flex;
             justify-content: center;
         }
@@ -30,6 +31,7 @@ footer {
 
     ul {
         font-family: 'Judson', serif;
+        line-height: 35px;
         letter-spacing: 2px;
         font-size: 0.8rem;
         list-style-type: none;

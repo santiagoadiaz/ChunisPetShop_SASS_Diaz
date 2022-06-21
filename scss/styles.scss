@@ -132,7 +132,7 @@ body {
 /* Featured products */
 
 .productostext {
-    margin: 75px 40px 40px 40px;
+    margin: 100px;
     font-family: 'Englebert', sans-serif;
     letter-spacing: 1px;
     font-size: 1rem;
@@ -164,6 +164,7 @@ body {
 
 /* Publicity */
 .container-publicity {
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-around;
     transition: all 500ms ease-out;
