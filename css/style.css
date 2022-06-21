@@ -7,7 +7,7 @@
 footer {
   background-color: #f1f1f1; }
   footer .container-footer {
-    height: 30em;
+    height: 20em;
     gap: 20px; }
     footer .container-footer .container-footer-1 {
       margin-top: 50px;
@@ -216,6 +216,15 @@ body .icons {
     .container-publicity .container-card-2 .paragraph .text-publicity {
       font-size: 13px;
       display: flex; }
+
+.divider {
+  height: 2px;
+  width: 500px;
+  background-color: #7c7c7c;
+  margin: 30px auto; }
+
+.dr-footer {
+  margin-bottom: 500px; }
 
 .container-grid-dog {
   margin: 0 150px;
