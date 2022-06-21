@@ -10,7 +10,9 @@ footer {
         gap: 20px;
 
         .container-footer-1 {
-            @extend %footerpropiedades;
+            align-items: center;
+            display: flex;
+            justify-content: center;
         }
 
         .container-footer-2 {
@@ -20,7 +22,9 @@ footer {
         }
 
         .container-footer-3 {
-            @extend %footerpropiedades;
+            align-items: center;
+            display: flex;
+            justify-content: center;
         }
     }
 
