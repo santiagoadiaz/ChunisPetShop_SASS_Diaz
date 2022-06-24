@@ -1,4 +1,5 @@
 /* Footer */
+
 .title-footer {
     font-family: 'Montagu Slab', serif;
     font-size: 1.2em;
@@ -7,8 +8,12 @@
 
 footer {
     .container-footer {
+        display: grid;
         height: 20em;
         gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row: 1fr;
+
 
         .container-footer-1 {
             margin-top: 50px;
@@ -42,6 +47,18 @@ footer {
             color: white;
         }
     }
+
+    .divider {
+        height: 2px;
+        width: 500px;
+        background-color: #7c7c7c;
+        margin: 30px auto;
+    }
+
+    .dr-footer {
+        margin-bottom: 50px;
+    }
+
 
     background-color: rgb(241, 241, 241);
 }

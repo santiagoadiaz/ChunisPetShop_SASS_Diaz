@@ -7,8 +7,11 @@
 footer {
   background-color: #f1f1f1; }
   footer .container-footer {
+    display: grid;
     height: 20em;
-    gap: 20px; }
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr; }
     footer .container-footer .container-footer-1 {
       margin-top: 50px;
       display: flex;
@@ -29,6 +32,13 @@ footer {
     list-style-type: none; }
   footer .letras-footer:hover {
     color: white; }
+  footer .divider {
+    height: 2px;
+    width: 500px;
+    background-color: #7c7c7c;
+    margin: 30px auto; }
+  footer .dr-footer {
+    margin-bottom: 50px; }
 
 /* Container pages mobile */
 .margin-top-bar {
@@ -41,7 +51,7 @@ footer {
   justify-content: center;
   padding: 15px; }
   .container-pages .pages {
-    font-family: 'Englebert', sans-serif;
+    font-family: 'Chau Philomene One', sans-serif;
     color: black;
     letter-spacing: 1px;
     font-size: 1rem;
@@ -60,9 +70,15 @@ header {
   background-color: white;
   box-sizing: border-box; }
   header .chunis-header {
-    font-family: 'Jua', sans-serif;
-    letter-spacing: 0.2px;
+    font-family: 'Londrina Solid', cursive;
+    letter-spacing: 2px;
     font-size: 2rem;
+    font-weight: 700;
+    color: black; }
+  header .petshop-header {
+    font-family: 'Londrina Solid', cursive;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
     font-weight: 700;
     color: black; }
   header .margin-header {
@@ -80,8 +96,14 @@ body a {
   text-decoration: none; }
 
 body .logo {
-  height: 25px;
-  width: 25px; }
+  height: 1.5rem;
+  width: 1.5rem;
+  transition: all .1s ease-in-out;
+  overflow: hidden; }
+  body .logo:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    filter: opacity(0.2); }
 
 body .img-auto {
   height: 100%;
@@ -101,12 +123,6 @@ body .checkbtn {
 body #check {
   display: none; }
 
-body .icons {
-  height: 20px;
-  width: 80px;
-  margin-left: 1680px;
-  margin-bottom: 30px; }
-
 /* Carousel */
 .height-carousel {
   height: calc(100vh - 80px) !important; }
@@ -125,14 +141,20 @@ body .icons {
   .container-category .container-category-dog {
     height: 800px;
     width: 1500px;
-    background-image: url("../image/template.png");
-    background-size: cover; }
+    background-image: url("../image/perro.webp");
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 1px 10px #000001;
+    transition: all .5s ease-in-out;
+    box-sizing: border-box; }
     .container-category .container-category-dog .container-dog {
       margin-top: 350px;
       text-align: center; }
       .container-category .container-category-dog .container-dog .title-dog {
         color: #FFF;
-        margin: 30px; }
+        margin: 30px;
+        position: relative; }
       .container-category .container-category-dog .container-dog .text-dog {
         padding: 10px;
         border: 3px solid #FFF;
@@ -144,7 +166,7 @@ body .icons {
   .container-category .container-category-cat {
     height: 800px;
     width: 1500px;
-    background-image: url("../image/template.png");
+    background-image: url("../image/gato.webp");
     background-size: cover; }
     .container-category .container-category-cat .container-cat {
       margin-top: 350px;
@@ -183,6 +205,21 @@ body .icons {
     transition: all 500ms ease-out;
     opacity: 0; }
 
+.text-product-one {
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  font-weight: 700; }
+
+.text-product-two {
+  letter-spacing: 1px;
+  font-size: 1rem;
+  font-weight: 700; }
+
+.text-product-three {
+  letter-spacing: 1px;
+  font-size: 1rem;
+  font-weight: 700; }
+
 /* Publicity */
 .container-publicity {
   margin-bottom: 50px;
@@ -216,15 +253,6 @@ body .icons {
     .container-publicity .container-card-2 .paragraph .text-publicity {
       font-size: 13px;
       display: flex; }
-
-.divider {
-  height: 2px;
-  width: 500px;
-  background-color: #7c7c7c;
-  margin: 30px auto; }
-
-.dr-footer {
-  margin-bottom: 500px; }
 
 .container-grid-dog {
   margin: 0 150px;

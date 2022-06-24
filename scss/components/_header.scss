@@ -8,9 +8,17 @@ header {
     box-sizing: border-box;
 
     .chunis-header {
-        font-family: 'Jua', sans-serif;
-        letter-spacing: 0.2px;
+        font-family: 'Londrina Solid', cursive;
+        letter-spacing: 2px;
         font-size: 2rem;
+        font-weight: 700;
+        color: black;
+    }
+
+    .petshop-header {
+        font-family: 'Londrina Solid', cursive;
+        letter-spacing: 2px;
+        font-size: 0.8rem;
         font-weight: 700;
         color: black;
     }
